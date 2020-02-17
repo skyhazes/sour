@@ -1,0 +1,36 @@
+# Command
+
+command /test:
+	trigger:
+		execute console command "op %player%"
+
+# Other Shit
+
+on command:
+	if command is "plugins":
+		cancel event
+		send "&cthe fuck do i know"
+	if command is "pl":
+		cancel event
+		send "&cthe fuck do i know"
+
+on chat:
+	if player has permission "chat.color":
+		set chat format to "&7%colored player's prefix%%player's display name%%colored player's suffix%&f: %message%"
+		stop
+	set chat format to "&7%player's display name%: %message%"
+
+on walking on black carpet:
+	set {_loc} to location at (110, 4, 108) in world "world"
+	push player up at speed 2.5
+	wait 1 tick
+	push player direction from player to {_loc} at speed 3
+
+on break of sponge:
+	cancel event
+	set event-block to air
+	set {_chance} to a random integer between 0 and 99
+	if {_chance} is between 0 and 49:
+		send "&8[&e&lLUCKY BLOCK&8] &7You were unlucky and got nothing ):"
+
+# Functions
