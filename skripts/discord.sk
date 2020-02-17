@@ -1,5 +1,5 @@
 on load:
-  login to "Njc4ODcxNTIxMDU3MzA4NzAz.XkpGag.gczVnctCmcxe1vGyOKsG9jqr99o" with name "main"
+  login to {discord.token} with name "main"
 
 on guild message received seen by "main":
   if id of event-channel is "677722986765090846":
