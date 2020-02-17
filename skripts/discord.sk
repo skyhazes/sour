@@ -13,5 +13,3 @@ on quit:
 
 on chat:
 	send "**%player's displayname%** %message%" to channel with id "677722986765090846" with "main"
-	
-# Linking
