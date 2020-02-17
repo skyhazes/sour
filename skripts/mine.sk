@@ -1,0 +1,3744 @@
+# Commands
+
+command /reset [<text>] [<text>]:
+	trigger:
+		if player has permission "mine.reset":
+			if arg-1 is "-a":
+				resetMine()
+				broadcast "&8[&a&lMINE&8] &7The mine has been reset by &canonymous&7!"
+			else:
+				resetMine()
+				broadcast "&8[&a&lMINE&8] &7The mine has been reset by &c%player%&7!"
+				stop
+		send "&cInsufficient permission!"
+
+# Other Shit
+
+every 5 minutes:
+	resetMine()
+	broadcast "&8[&a&lMINE&8] &7The mine has reset automatically!"
+
+# Functions
+
+function resetMine():
+	resetMineA()
+	resetMineB()
+	resetMineC()
+	resetMineD()
+	resetMineE()
+	resetMineF()
+	resetMineG()
+	resetMineH()
+	resetMineI()
+	resetMineJ()
+	resetMineK()
+	resetMineL()
+	resetMineM()
+	resetMineN()
+	resetMineO()
+	resetMineP()
+	resetMineQ()
+	resetMineR()
+	resetMineS()
+	resetMineT()
+
+function resetMineA():
+	resetMineAa()
+	resetMineAb()
+	resetMineAc()
+	resetMineAd()
+	resetMineAe()
+	resetMineAf()
+	resetMineAg()
+	resetMineAh()
+function resetMineB():
+	resetMineBa()
+	resetMineBb()
+	resetMineBc()
+	resetMineBd()
+	resetMineBe()
+	resetMineBf()
+	resetMineBg()
+	resetMineBh()
+function resetMineC():
+	resetMineCa()
+	resetMineCb()
+	resetMineCc()
+	resetMineCd()
+	resetMineCe()
+	resetMineCf()
+	resetMineCg()
+	resetMineCh()
+function resetMineD():
+	resetMineDa()
+	resetMineDb()
+	resetMineDc()
+	resetMineDd()
+	resetMineDe()
+	resetMineDf()
+	resetMineDg()
+	resetMineDh()
+function resetMineE():
+	resetMineEa()
+	resetMineEb()
+	resetMineEc()
+	resetMineEd()
+	resetMineEe()
+	resetMineEf()
+	resetMineEg()
+	resetMineEh()
+function resetMineF():
+	resetMineFa()
+	resetMineFb()
+	resetMineFc()
+	resetMineFd()
+	resetMineFe()
+	resetMineFf()
+	resetMineFg()
+	resetMineFh()
+function resetMineG():
+	resetMineGa()
+	resetMineGb()
+	resetMineGc()
+	resetMineGd()
+	resetMineGe()
+	resetMineGf()
+	resetMineGg()
+	resetMineGh()
+function resetMineH():
+	resetMineHa()
+	resetMineHb()
+	resetMineHc()
+	resetMineHd()
+	resetMineHe()
+	resetMineHf()
+	resetMineHg()
+	resetMineHh()
+function resetMineI():
+	resetMineIa()
+	resetMineIb()
+	resetMineIc()
+	resetMineId()
+	resetMineIe()
+	resetMineIf()
+	resetMineIg()
+	resetMineIh()
+function resetMineJ():
+	resetMineJa()
+	resetMineJb()
+	resetMineJc()
+	resetMineJd()
+	resetMineJe()
+	resetMineJf()
+	resetMineJg()
+	resetMineJh()
+function resetMineK():
+	resetMineKa()
+	resetMineKb()
+	resetMineKc()
+	resetMineKd()
+	resetMineKe()
+	resetMineKf()
+	resetMineKg()
+	resetMineKh()
+function resetMineL():
+	resetMineLa()
+	resetMineLb()
+	resetMineLc()
+	resetMineLd()
+	resetMineLe()
+	resetMineLf()
+	resetMineLg()
+	resetMineLh()
+function resetMineM():
+	resetMineMa()
+	resetMineMb()
+	resetMineMc()
+	resetMineMd()
+	resetMineMe()
+	resetMineMf()
+	resetMineMg()
+	resetMineMh()
+function resetMineN():
+	resetMineNa()
+	resetMineNb()
+	resetMineNc()
+	resetMineNd()
+	resetMineNe()
+	resetMineNf()
+	resetMineNg()
+	resetMineNh()
+function resetMineO():
+	resetMineOa()
+	resetMineOb()
+	resetMineOc()
+	resetMineOd()
+	resetMineOe()
+	resetMineOf()
+	resetMineOg()
+	resetMineOh()
+function resetMineP():
+	resetMinePa()
+	resetMinePb()
+	resetMinePc()
+	resetMinePd()
+	resetMinePe()
+	resetMinePf()
+	resetMinePg()
+	resetMinePh()
+function resetMineQ():
+	resetMineQa()
+	resetMineQb()
+	resetMineQc()
+	resetMineQd()
+	resetMineQe()
+	resetMineQf()
+	resetMineQg()
+	resetMineQh()
+function resetMineR():
+	resetMineRa()
+	resetMineRb()
+	resetMineRc()
+	resetMineRd()
+	resetMineRe()
+	resetMineRf()
+	resetMineRg()
+	resetMineRh()
+function resetMineS():
+	resetMineSa()
+	resetMineSb()
+	resetMineSc()
+	resetMineSd()
+	resetMineSe()
+	resetMineSf()
+	resetMineSg()
+	resetMineSh()
+function resetMineT():
+	resetMineTa()
+	resetMineTb()
+	resetMineTc()
+	resetMineTd()
+	resetMineTe()
+	resetMineTf()
+	resetMineTg()
+	resetMineTh()
+
+function resetMineAa():
+	set {_loc1} to location at (119, 4, 98) in world "world"
+	set {_loc2} to location at (119, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineAb():
+	set {_loc1} to location at (119, 5, 98) in world "world"
+	set {_loc2} to location at (119, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineAc():
+	set {_loc1} to location at (119, 6, 98) in world "world"
+	set {_loc2} to location at (119, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineAd():
+	set {_loc1} to location at (119, 7, 98) in world "world"
+	set {_loc2} to location at (119, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineAe():
+	set {_loc1} to location at (119, 8, 98) in world "world"
+	set {_loc2} to location at (119, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineAf():
+	set {_loc1} to location at (119, 9, 98) in world "world"
+	set {_loc2} to location at (119, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineAg():
+	set {_loc1} to location at (119, 10, 98) in world "world"
+	set {_loc2} to location at (119, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineAh():
+	set {_loc1} to location at (119, 11, 98) in world "world"
+	set {_loc2} to location at (119, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineBa():
+	set {_loc1} to location at (118, 4, 98) in world "world"
+	set {_loc2} to location at (118, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineBb():
+	set {_loc1} to location at (118, 5, 98) in world "world"
+	set {_loc2} to location at (118, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineBc():
+	set {_loc1} to location at (118, 6, 98) in world "world"
+	set {_loc2} to location at (118, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineBd():
+	set {_loc1} to location at (118, 7, 98) in world "world"
+	set {_loc2} to location at (118, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineBe():
+	set {_loc1} to location at (118, 8, 98) in world "world"
+	set {_loc2} to location at (118, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineBf():
+	set {_loc1} to location at (118, 9, 98) in world "world"
+	set {_loc2} to location at (118, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineBg():
+	set {_loc1} to location at (118, 10, 98) in world "world"
+	set {_loc2} to location at (118, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineBh():
+	set {_loc1} to location at (118, 11, 98) in world "world"
+	set {_loc2} to location at (118, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineCa():
+	set {_loc1} to location at (117, 4, 98) in world "world"
+	set {_loc2} to location at (117, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineCb():
+	set {_loc1} to location at (117, 5, 98) in world "world"
+	set {_loc2} to location at (117, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineCc():
+	set {_loc1} to location at (117, 6, 98) in world "world"
+	set {_loc2} to location at (117, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineCd():
+	set {_loc1} to location at (117, 7, 98) in world "world"
+	set {_loc2} to location at (117, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineCe():
+	set {_loc1} to location at (117, 8, 98) in world "world"
+	set {_loc2} to location at (117, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineCf():
+	set {_loc1} to location at (117, 9, 98) in world "world"
+	set {_loc2} to location at (117, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineCg():
+	set {_loc1} to location at (117, 10, 98) in world "world"
+	set {_loc2} to location at (117, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineCh():
+	set {_loc1} to location at (117, 11, 98) in world "world"
+	set {_loc2} to location at (117, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineDa():
+	set {_loc1} to location at (116, 4, 98) in world "world"
+	set {_loc2} to location at (116, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineDb():
+	set {_loc1} to location at (116, 5, 98) in world "world"
+	set {_loc2} to location at (116, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineDc():
+	set {_loc1} to location at (116, 6, 98) in world "world"
+	set {_loc2} to location at (116, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineDd():
+	set {_loc1} to location at (116, 7, 98) in world "world"
+	set {_loc2} to location at (116, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineDe():
+	set {_loc1} to location at (116, 8, 98) in world "world"
+	set {_loc2} to location at (116, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineDf():
+	set {_loc1} to location at (116, 9, 98) in world "world"
+	set {_loc2} to location at (116, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineDg():
+	set {_loc1} to location at (116, 10, 98) in world "world"
+	set {_loc2} to location at (116, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineDh():
+	set {_loc1} to location at (116, 11, 98) in world "world"
+	set {_loc2} to location at (116, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineEa():
+	set {_loc1} to location at (115, 4, 98) in world "world"
+	set {_loc2} to location at (115, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineEb():
+	set {_loc1} to location at (115, 5, 98) in world "world"
+	set {_loc2} to location at (115, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineEc():
+	set {_loc1} to location at (115, 6, 98) in world "world"
+	set {_loc2} to location at (115, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineEd():
+	set {_loc1} to location at (115, 7, 98) in world "world"
+	set {_loc2} to location at (115, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineEe():
+	set {_loc1} to location at (115, 8, 98) in world "world"
+	set {_loc2} to location at (115, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineEf():
+	set {_loc1} to location at (115, 9, 98) in world "world"
+	set {_loc2} to location at (115, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineEg():
+	set {_loc1} to location at (115, 10, 98) in world "world"
+	set {_loc2} to location at (115, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineEh():
+	set {_loc1} to location at (115, 11, 98) in world "world"
+	set {_loc2} to location at (115, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineFa():
+	set {_loc1} to location at (114, 4, 98) in world "world"
+	set {_loc2} to location at (114, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineFb():
+	set {_loc1} to location at (114, 5, 98) in world "world"
+	set {_loc2} to location at (114, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineFc():
+	set {_loc1} to location at (114, 6, 98) in world "world"
+	set {_loc2} to location at (114, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineFd():
+	set {_loc1} to location at (114, 7, 98) in world "world"
+	set {_loc2} to location at (114, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineFe():
+	set {_loc1} to location at (114, 8, 98) in world "world"
+	set {_loc2} to location at (114, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineFf():
+	set {_loc1} to location at (114, 9, 98) in world "world"
+	set {_loc2} to location at (114, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineFg():
+	set {_loc1} to location at (114, 10, 98) in world "world"
+	set {_loc2} to location at (114, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineFh():
+	set {_loc1} to location at (114, 11, 98) in world "world"
+	set {_loc2} to location at (114, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineGa():
+	set {_loc1} to location at (113, 4, 98) in world "world"
+	set {_loc2} to location at (113, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineGb():
+	set {_loc1} to location at (113, 5, 98) in world "world"
+	set {_loc2} to location at (113, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineGc():
+	set {_loc1} to location at (113, 6, 98) in world "world"
+	set {_loc2} to location at (113, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineGd():
+	set {_loc1} to location at (113, 7, 98) in world "world"
+	set {_loc2} to location at (113, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineGe():
+	set {_loc1} to location at (113, 8, 98) in world "world"
+	set {_loc2} to location at (113, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineGf():
+	set {_loc1} to location at (113, 9, 98) in world "world"
+	set {_loc2} to location at (113, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineGg():
+	set {_loc1} to location at (113, 10, 98) in world "world"
+	set {_loc2} to location at (113, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineGh():
+	set {_loc1} to location at (113, 11, 98) in world "world"
+	set {_loc2} to location at (113, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineHa():
+	set {_loc1} to location at (112, 4, 98) in world "world"
+	set {_loc2} to location at (112, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineHb():
+	set {_loc1} to location at (112, 5, 98) in world "world"
+	set {_loc2} to location at (112, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineHc():
+	set {_loc1} to location at (112, 6, 98) in world "world"
+	set {_loc2} to location at (112, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineHd():
+	set {_loc1} to location at (112, 7, 98) in world "world"
+	set {_loc2} to location at (112, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineHe():
+	set {_loc1} to location at (112, 8, 98) in world "world"
+	set {_loc2} to location at (112, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineHf():
+	set {_loc1} to location at (112, 9, 98) in world "world"
+	set {_loc2} to location at (112, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineHg():
+	set {_loc1} to location at (112, 10, 98) in world "world"
+	set {_loc2} to location at (112, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineHh():
+	set {_loc1} to location at (112, 11, 98) in world "world"
+	set {_loc2} to location at (112, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineIa():
+	set {_loc1} to location at (111, 4, 98) in world "world"
+	set {_loc2} to location at (111, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineIb():
+	set {_loc1} to location at (111, 5, 98) in world "world"
+	set {_loc2} to location at (111, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineIc():
+	set {_loc1} to location at (111, 6, 98) in world "world"
+	set {_loc2} to location at (111, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineId():
+	set {_loc1} to location at (111, 7, 98) in world "world"
+	set {_loc2} to location at (111, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineIe():
+	set {_loc1} to location at (111, 8, 98) in world "world"
+	set {_loc2} to location at (111, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineIf():
+	set {_loc1} to location at (111, 9, 98) in world "world"
+	set {_loc2} to location at (111, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineIg():
+	set {_loc1} to location at (111, 10, 98) in world "world"
+	set {_loc2} to location at (111, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineIh():
+	set {_loc1} to location at (111, 11, 98) in world "world"
+	set {_loc2} to location at (111, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineJa():
+	set {_loc1} to location at (110, 4, 98) in world "world"
+	set {_loc2} to location at (110, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineJb():
+	set {_loc1} to location at (110, 5, 98) in world "world"
+	set {_loc2} to location at (110, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineJc():
+	set {_loc1} to location at (110, 6, 98) in world "world"
+	set {_loc2} to location at (110, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineJd():
+	set {_loc1} to location at (110, 7, 98) in world "world"
+	set {_loc2} to location at (110, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineJe():
+	set {_loc1} to location at (110, 8, 98) in world "world"
+	set {_loc2} to location at (110, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineJf():
+	set {_loc1} to location at (110, 9, 98) in world "world"
+	set {_loc2} to location at (110, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineJg():
+	set {_loc1} to location at (110, 10, 98) in world "world"
+	set {_loc2} to location at (110, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineJh():
+	set {_loc1} to location at (110, 11, 98) in world "world"
+	set {_loc2} to location at (110, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineKa():
+	set {_loc1} to location at (109, 4, 98) in world "world"
+	set {_loc2} to location at (109, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineKb():
+	set {_loc1} to location at (109, 5, 98) in world "world"
+	set {_loc2} to location at (109, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineKc():
+	set {_loc1} to location at (109, 6, 98) in world "world"
+	set {_loc2} to location at (109, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineKd():
+	set {_loc1} to location at (109, 7, 98) in world "world"
+	set {_loc2} to location at (109, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineKe():
+	set {_loc1} to location at (109, 8, 98) in world "world"
+	set {_loc2} to location at (109, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineKf():
+	set {_loc1} to location at (109, 9, 98) in world "world"
+	set {_loc2} to location at (109, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineKg():
+	set {_loc1} to location at (109, 10, 98) in world "world"
+	set {_loc2} to location at (109, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineKh():
+	set {_loc1} to location at (109, 11, 98) in world "world"
+	set {_loc2} to location at (109, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineLa():
+	set {_loc1} to location at (108, 4, 98) in world "world"
+	set {_loc2} to location at (108, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineLb():
+	set {_loc1} to location at (108, 5, 98) in world "world"
+	set {_loc2} to location at (108, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineLc():
+	set {_loc1} to location at (108, 6, 98) in world "world"
+	set {_loc2} to location at (108, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineLd():
+	set {_loc1} to location at (108, 7, 98) in world "world"
+	set {_loc2} to location at (108, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineLe():
+	set {_loc1} to location at (108, 8, 98) in world "world"
+	set {_loc2} to location at (108, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineLf():
+	set {_loc1} to location at (108, 9, 98) in world "world"
+	set {_loc2} to location at (108, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineLg():
+	set {_loc1} to location at (108, 10, 98) in world "world"
+	set {_loc2} to location at (108, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineLh():
+	set {_loc1} to location at (108, 11, 98) in world "world"
+	set {_loc2} to location at (108, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineMa():
+	set {_loc1} to location at (107, 4, 98) in world "world"
+	set {_loc2} to location at (107, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineMb():
+	set {_loc1} to location at (107, 5, 98) in world "world"
+	set {_loc2} to location at (107, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineMc():
+	set {_loc1} to location at (107, 6, 98) in world "world"
+	set {_loc2} to location at (107, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineMd():
+	set {_loc1} to location at (107, 7, 98) in world "world"
+	set {_loc2} to location at (107, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineMe():
+	set {_loc1} to location at (107, 8, 98) in world "world"
+	set {_loc2} to location at (107, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineMf():
+	set {_loc1} to location at (107, 9, 98) in world "world"
+	set {_loc2} to location at (107, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineMg():
+	set {_loc1} to location at (107, 10, 98) in world "world"
+	set {_loc2} to location at (107, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineMh():
+	set {_loc1} to location at (107, 11, 98) in world "world"
+	set {_loc2} to location at (107, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineNa():
+	set {_loc1} to location at (106, 4, 98) in world "world"
+	set {_loc2} to location at (106, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineNb():
+	set {_loc1} to location at (106, 5, 98) in world "world"
+	set {_loc2} to location at (106, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineNc():
+	set {_loc1} to location at (106, 6, 98) in world "world"
+	set {_loc2} to location at (106, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineNd():
+	set {_loc1} to location at (106, 7, 98) in world "world"
+	set {_loc2} to location at (106, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineNe():
+	set {_loc1} to location at (106, 8, 98) in world "world"
+	set {_loc2} to location at (106, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineNf():
+	set {_loc1} to location at (106, 9, 98) in world "world"
+	set {_loc2} to location at (106, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineNg():
+	set {_loc1} to location at (106, 10, 98) in world "world"
+	set {_loc2} to location at (106, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineNh():
+	set {_loc1} to location at (106, 11, 98) in world "world"
+	set {_loc2} to location at (106, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineOa():
+	set {_loc1} to location at (105, 4, 98) in world "world"
+	set {_loc2} to location at (105, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineOb():
+	set {_loc1} to location at (105, 5, 98) in world "world"
+	set {_loc2} to location at (105, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineOc():
+	set {_loc1} to location at (105, 6, 98) in world "world"
+	set {_loc2} to location at (105, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineOd():
+	set {_loc1} to location at (105, 7, 98) in world "world"
+	set {_loc2} to location at (105, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineOe():
+	set {_loc1} to location at (105, 8, 98) in world "world"
+	set {_loc2} to location at (105, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineOf():
+	set {_loc1} to location at (105, 9, 98) in world "world"
+	set {_loc2} to location at (105, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineOg():
+	set {_loc1} to location at (105, 10, 98) in world "world"
+	set {_loc2} to location at (105, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineOh():
+	set {_loc1} to location at (105, 11, 98) in world "world"
+	set {_loc2} to location at (105, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMinePa():
+	set {_loc1} to location at (104, 4, 98) in world "world"
+	set {_loc2} to location at (104, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMinePb():
+	set {_loc1} to location at (104, 5, 98) in world "world"
+	set {_loc2} to location at (104, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMinePc():
+	set {_loc1} to location at (104, 6, 98) in world "world"
+	set {_loc2} to location at (104, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMinePd():
+	set {_loc1} to location at (104, 7, 98) in world "world"
+	set {_loc2} to location at (104, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMinePe():
+	set {_loc1} to location at (104, 8, 98) in world "world"
+	set {_loc2} to location at (104, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMinePf():
+	set {_loc1} to location at (104, 9, 98) in world "world"
+	set {_loc2} to location at (104, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMinePg():
+	set {_loc1} to location at (104, 10, 98) in world "world"
+	set {_loc2} to location at (104, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMinePh():
+	set {_loc1} to location at (104, 11, 98) in world "world"
+	set {_loc2} to location at (104, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineQa():
+	set {_loc1} to location at (103, 4, 98) in world "world"
+	set {_loc2} to location at (103, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineQb():
+	set {_loc1} to location at (103, 5, 98) in world "world"
+	set {_loc2} to location at (103, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineQc():
+	set {_loc1} to location at (103, 6, 98) in world "world"
+	set {_loc2} to location at (103, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineQd():
+	set {_loc1} to location at (103, 7, 98) in world "world"
+	set {_loc2} to location at (103, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineQe():
+	set {_loc1} to location at (103, 8, 98) in world "world"
+	set {_loc2} to location at (103, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineQf():
+	set {_loc1} to location at (103, 9, 98) in world "world"
+	set {_loc2} to location at (103, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineQg():
+	set {_loc1} to location at (103, 10, 98) in world "world"
+	set {_loc2} to location at (103, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineQh():
+	set {_loc1} to location at (103, 11, 98) in world "world"
+	set {_loc2} to location at (103, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineRa():
+	set {_loc1} to location at (102, 4, 98) in world "world"
+	set {_loc2} to location at (102, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineRb():
+	set {_loc1} to location at (102, 5, 98) in world "world"
+	set {_loc2} to location at (102, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineRc():
+	set {_loc1} to location at (102, 6, 98) in world "world"
+	set {_loc2} to location at (102, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineRd():
+	set {_loc1} to location at (102, 7, 98) in world "world"
+	set {_loc2} to location at (102, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineRe():
+	set {_loc1} to location at (102, 8, 98) in world "world"
+	set {_loc2} to location at (102, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineRf():
+	set {_loc1} to location at (102, 9, 98) in world "world"
+	set {_loc2} to location at (102, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineRg():
+	set {_loc1} to location at (102, 10, 98) in world "world"
+	set {_loc2} to location at (102, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineRh():
+	set {_loc1} to location at (102, 11, 98) in world "world"
+	set {_loc2} to location at (102, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineSa():
+	set {_loc1} to location at (101, 4, 98) in world "world"
+	set {_loc2} to location at (101, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineSb():
+	set {_loc1} to location at (101, 5, 98) in world "world"
+	set {_loc2} to location at (101, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineSc():
+	set {_loc1} to location at (101, 6, 98) in world "world"
+	set {_loc2} to location at (101, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineSd():
+	set {_loc1} to location at (101, 7, 98) in world "world"
+	set {_loc2} to location at (101, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineSe():
+	set {_loc1} to location at (101, 8, 98) in world "world"
+	set {_loc2} to location at (101, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineSf():
+	set {_loc1} to location at (101, 9, 98) in world "world"
+	set {_loc2} to location at (101, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineSg():
+	set {_loc1} to location at (101, 10, 98) in world "world"
+	set {_loc2} to location at (101, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineSh():
+	set {_loc1} to location at (101, 11, 98) in world "world"
+	set {_loc2} to location at (101, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineTa():
+	set {_loc1} to location at (100, 4, 98) in world "world"
+	set {_loc2} to location at (100, 4, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineTb():
+	set {_loc1} to location at (100, 5, 98) in world "world"
+	set {_loc2} to location at (100, 5, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineTc():
+	set {_loc1} to location at (100, 6, 98) in world "world"
+	set {_loc2} to location at (100, 6, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineTd():
+	set {_loc1} to location at (100, 7, 98) in world "world"
+	set {_loc2} to location at (100, 7, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineTe():
+	set {_loc1} to location at (100, 8, 98) in world "world"
+	set {_loc2} to location at (100, 8, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineTf():
+	set {_loc1} to location at (100, 9, 98) in world "world"
+	set {_loc2} to location at (100, 9, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+		
+function resetMineTg():
+	set {_loc1} to location at (100, 10, 98) in world "world"
+	set {_loc2} to location at (100, 10, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
+
+function resetMineTh():
+	set {_loc1} to location at (100, 11, 98) in world "world"
+	set {_loc2} to location at (100, 11, 117) in world "world"
+	loop all blocks within block at {_loc1} and block at {_loc2}:
+		set {_chance} to a random integer between 1 and 100
+		if {_chance} is between 1 and 5:
+			set block at loop-block to emerald ore
+		if {_chance} is between 6 and 15:
+			set block at loop-block to diamond ore
+		if {_chance} is between 16 and 30:
+			set block at loop-block to gold ore
+		if {_chance} is between 31 and 60:
+			set block at loop-block to iron ore
+		if {_chance} is between 61 and 70:
+			set block at loop-block to coal ore
+		if {_chance} is between 71 and 95:
+			set block at loop-block to stone
+		if {_chance} is between 96 and 99:
+			set block at loop-block to cobblestone
+		if {_chance} is between 100 and 100:
+			set block at loop-block to sponge
